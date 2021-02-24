@@ -1,0 +1,60 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem;
+
+  & input{
+    min-width: 18rem;
+    width: 30%;
+    height: 3rem;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid cadetblue;
+    outline: none;
+    font-size: 1rem;
+  }
+
+  &__about{
+    height: 8rem;
+    min-width: 18rem;
+    width: 30%;
+    border-radius: 1rem;
+    border: 1px solid cadetblue;
+    outline: none;
+    resize: none;
+    padding: 1rem 0.5rem;
+    font-size: 1rem;
+  }
+
+  &__image{
+    border: none !important;
+    margin-top: 0.5rem;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    margin-bottom: 0.5rem !important;
+    height: 1.75rem !important;
+  }
+
+  &__button{
+    min-width: 18rem;
+    width: 30%;
+    height: 3rem;
+    border-radius: 1rem;
+    border: 1px solid indianred;
+    background: white;
+    outline: none;
+    font-size: 1rem;
+    margin-top: 1rem;
+
+    &:hover{
+      background-color: indianred;
+      color: white;
+    }
+
+    &:active{
+      background-color: #622d2d;
+    }
+  }
+}

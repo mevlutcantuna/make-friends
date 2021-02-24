@@ -1,0 +1,16 @@
+.navbar{
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  &__title{
+    font-size: 2rem;
+  }
+
+  &__links{
+    font-size: 1.25rem;
+    color: black;
+  }
+}
